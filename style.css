@@ -273,8 +273,8 @@ main {
       font-size: 1.2rem;
     }
     li:hover {
-      background-color: rgb(221, 216, 216);
-      border: 1px solid rgb(0, 219, 182);
+      background-color: rgb(0, 219, 182);
+      
       a {
         color: black;
       }
@@ -300,7 +300,7 @@ main {
     .drop-child a:hover::after {
       content: "✔";
       margin-left: 1rem;
-      color: rgb(0, 219, 182);
+      color: black;
     }
   }
   .drop-parent::after {
